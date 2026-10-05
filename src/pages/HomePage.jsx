@@ -41,6 +41,7 @@ import { industries } from '../data/industries';
 import { reviewTypes } from '../data/reviewTypes';
 import { testimonials } from '../data/testimonials';
 import { useLanguage } from '../context/LanguageContext';
+import { trackPixelEvent } from '../utils/analytics';
 
 export default function HomePage() {
   const { t } = useLanguage();
@@ -880,6 +881,7 @@ export default function HomePage() {
               href="https://wa.me/naveed.dmca?text=Hello%2C%20I%20would%20like%20to%20send%20my%20review%20links%20for%20assessment."
               target="_blank"
               rel="noopener noreferrer"
+              onClick={() => trackPixelEvent('Contact', { channel: 'WhatsApp', placement: 'reputation_banner' })}
               style={{
                 background: '#25D366',
                 color: '#ffffff',
@@ -1371,6 +1373,7 @@ export default function HomePage() {
             href="https://wa.me/naveed.dmca?text=Hello%2C%20I%20have%20a%20question%20about%20Google%20review%20removal."
             target="_blank"
             rel="noopener noreferrer"
+            onClick={() => trackPixelEvent('Contact', { channel: 'WhatsApp', placement: 'faq_section' })}
             style={{
               background: '#25D366',
               color: '#ffffff',

@@ -11,12 +11,16 @@ import Blog from './pages/Blog';
 import BlogPostDetail from './pages/BlogPostDetail';
 
 import { LanguageProvider } from './context/LanguageContext';
+import { trackPixelEvent } from './utils/analytics';
 
 // Scroll to top on route change or smooth scroll to hash element
 function ScrollToTop() {
   const { pathname, hash } = useLocation();
 
   useEffect(() => {
+    // Track PageView on route changes for Meta Pixel
+    trackPixelEvent('PageView');
+
     if (hash) {
       const id = hash.replace('#', '');
       const scrollToElement = () => {

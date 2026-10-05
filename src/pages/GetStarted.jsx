@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { ArrowLeft, ArrowRight, CheckCircle2, ShieldCheck, Lock, Star } from 'lucide-react';
 import { useLanguage } from '../context/LanguageContext';
+import { trackPixelEvent } from '../utils/analytics';
 
 export default function GetStarted() {
   const { language, t } = useLanguage();
@@ -101,6 +102,13 @@ export default function GetStarted() {
 
     const encodedText = encodeURIComponent(message);
     const whatsappUrl = `https://wa.me/${phoneNumber}?text=${encodedText}`;
+
+    // Fire Meta Pixel Lead conversion event
+    trackPixelEvent('Lead', {
+      content_name: 'Free Consultation Audit',
+      business_type: selectedBusinessType,
+      quantity: selectedQuantity
+    });
 
     window.open(whatsappUrl, '_blank');
     setSubmitted(true);
