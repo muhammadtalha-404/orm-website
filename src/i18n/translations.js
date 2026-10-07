@@ -67,7 +67,7 @@ export const translations = {
       { stat: '10,000+', label: 'REVIEWS REMOVED' },
       { stat: '100%', label: 'SUCCESS RATE' },
       { stat: '6 Hours', label: 'AVG REMOVAL TIME' },
-      { stat: '$150', label: 'COST PER REMOVAL' }
+      { stat: '$120', label: 'COST PER REMOVAL' }
     ],
     reality: {
       badge: 'THE REALITY',
@@ -436,7 +436,7 @@ export const translations = {
       { stat: '10.000+', label: 'REVIEWS VERWIJDERD' },
       { stat: '100%', label: 'SUCCESPERCENTAGE' },
       { stat: '6 Uur', label: 'GEM. VERWERKINGSTIJD' },
-      { stat: '$150', label: 'KOSTEN PER VERWIJDERING' }
+      { stat: '$120', label: 'KOSTEN PER VERWIJDERING' }
     ],
     reality: {
       badge: 'DE REALITEIT',

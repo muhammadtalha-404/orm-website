@@ -80,7 +80,7 @@ export default function HomePage() {
     { stat: '10,000+', label: 'REVIEWS REMOVED' },
     { stat: '100%', label: 'SUCCESS RATE' },
     { stat: '6 Hours', label: 'AVG REMOVAL TIME' },
-    { stat: '$150', label: 'COST PER REMOVAL' }
+    { stat: '$120', label: 'COST PER REMOVAL' }
   ]);
 
   return (
