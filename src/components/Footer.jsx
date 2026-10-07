@@ -72,11 +72,11 @@ export default function Footer() {
                 <span>+92 310 7791895</span>
               </a>
               <a
-                href="mailto:baghi7165@gmail.com"
+                href="mailto:contact@naveedreputation.com"
                 style={{ display: 'inline-flex', alignItems: 'center', gap: '8px', color: '#1F2329', textDecoration: 'none' }}
               >
                 <Mail size={15} color="#023052" />
-                <span>baghi7165@gmail.com</span>
+                <span>contact@naveedreputation.com</span>
               </a>
               <div style={{ display: 'inline-flex', alignItems: 'center', gap: '8px', color: '#5E6368' }}>
                 <MapPin size={15} color="#023052" />
