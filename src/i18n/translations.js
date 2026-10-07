@@ -66,7 +66,7 @@ export const translations = {
     stats: [
       { stat: '10,000+', label: 'REVIEWS REMOVED' },
       { stat: '100%', label: 'SUCCESS RATE' },
-      { stat: '6 Hours', label: 'AVG REMOVAL TIME' },
+      { stat: '2 Hours', label: 'AVG REMOVAL TIME' },
       { stat: '$120', label: 'COST PER REMOVAL' }
     ],
     reality: {
@@ -435,7 +435,7 @@ export const translations = {
     stats: [
       { stat: '10.000+', label: 'REVIEWS VERWIJDERD' },
       { stat: '100%', label: 'SUCCESPERCENTAGE' },
-      { stat: '6 Uur', label: 'GEM. VERWERKINGSTIJD' },
+      { stat: '2 Uur', label: 'GEM. VERWERKINGSTIJD' },
       { stat: '$120', label: 'KOSTEN PER VERWIJDERING' }
     ],
     reality: {

@@ -79,7 +79,7 @@ export default function HomePage() {
   const heroStats = t('stats', [
     { stat: '10,000+', label: 'REVIEWS REMOVED' },
     { stat: '100%', label: 'SUCCESS RATE' },
-    { stat: '6 Hours', label: 'AVG REMOVAL TIME' },
+    { stat: '2 Hours', label: 'AVG REMOVAL TIME' },
     { stat: '$120', label: 'COST PER REMOVAL' }
   ]);
 
