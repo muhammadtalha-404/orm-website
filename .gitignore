@@ -28,4 +28,5 @@ deploy
 *.cjs
 *.py
 *.txt
+!public/robots.txt
 reference_original.css
