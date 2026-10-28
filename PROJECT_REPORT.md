@@ -99,7 +99,7 @@ The project features a continuous integration and deployment workflow powered by
 
 ## 6. Corporate Communication & Inbox Routing
 
-- **Primary Contact Address:** `contact@naveedreputation.com`
+- **Primary Contact Address:** `contact@businessreputationexpert.co`
 - **Routing Protocol:** Active cPanel forwarder routing inbound mail to `naveedahmadabaloch@gmail.com`.
 - **Direct Messaging:** Direct WhatsApp link (`+92 310 7791895` / `naveed.dmca`).
 
@@ -110,4 +110,4 @@ The project features a continuous integration and deployment workflow powered by
 - [x] Bilingual switch functional across all routes
 - [x] Meta Pixel active with verified conversion hooks
 - [x] Automated Git push deployment operational
-- [x] Inbound forwarder active for `contact@naveedreputation.com`
+- [x] Inbound forwarder active for `contact@businessreputationexpert.co`

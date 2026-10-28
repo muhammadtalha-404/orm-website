@@ -72,11 +72,11 @@ export default function Footer() {
                 <span>+92 310 7791895</span>
               </a>
               <a
-                href="mailto:contact@naveedreputation.com"
+                href="mailto:contact@businessreputationexpert.co"
                 style={{ display: 'inline-flex', alignItems: 'center', gap: '8px', color: '#1F2329', textDecoration: 'none' }}
               >
                 <Mail size={15} color="#023052" />
-                <span>contact@naveedreputation.com</span>
+                <span>contact@businessreputationexpert.co</span>
               </a>
               <div style={{ display: 'inline-flex', alignItems: 'center', gap: '8px', color: '#5E6368' }}>
                 <MapPin size={15} color="#023052" />
