@@ -18,3 +18,14 @@ export const trackPixelCustom = (eventName, params = {}) => {
     }
   }
 };
+
+// Helper utility for Google Analytics (gtag.js) tracking
+export const trackGtagEvent = (eventName, params = {}) => {
+  if (typeof window !== 'undefined' && typeof window.gtag === 'function') {
+    try {
+      window.gtag('event', eventName, params);
+    } catch (e) {
+      console.warn('Google Analytics tracking error:', e);
+    }
+  }
+};

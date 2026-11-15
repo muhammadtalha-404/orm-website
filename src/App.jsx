@@ -18,8 +18,13 @@ function ScrollToTop() {
   const { pathname, hash } = useLocation();
 
   useEffect(() => {
-    // Track PageView on route changes for Meta Pixel
+    // Track PageView on route changes for Meta Pixel & Google Analytics
     trackPixelEvent('PageView');
+    if (typeof window !== 'undefined' && typeof window.gtag === 'function') {
+      window.gtag('config', 'G-9HVNKHSX6B', {
+        page_path: pathname + (hash || ''),
+      });
+    }
 
     if (hash) {
       const id = hash.replace('#', '');
